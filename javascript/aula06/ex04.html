@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tratamento strings</title>
+  <style>
+    body { 
+      background-color: rgb(93, 93, 100);      
+      font: normal 18pt Arial;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    var nome = window.prompt('Digite seu nome.');
+    document.write(`Seu nome: <strong>${nome}</strong> possui ${nome.length} letras.<br>`);
+    document.write(`Maisculo com <strong>toLocaleLowerCase()</strong>: ${nome.toLocaleUpperCase()}; <br> Minusculo com <strong>toLocaleLowerCase()</strong>: ${nome.toLocaleLowerCase()}<br>`);
+    
+    var number = 10;
+    document.write(`Usuando <strong>toFixed(2)</strong> em ${number} para casas decimais: ${number.toFixed(2)}<br>`);
+    document.write(`Alterando ponto para virugla com <strong>replace</strong>:  ${number.toFixed(2).replace('.', ',')} <br>`);
+    document.write(`Exibindo cifrão ${number.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`);
+  </script>  
+</body>
+</html>

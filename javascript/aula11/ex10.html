@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Condições simples/composta</title>
+</head>
+<style>
+  body{
+    background: rgb(31, 31, 61);
+    color: white;
+    display: flex;
+  }
+  .simples{
+    background: rgb(79, 65, 110);
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .composta{
+    background: rgb(98, 47, 207);
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+  }
+</style>
+<body>
+  <div class="simples">
+    <h2>Condições simples</h2>
+    <input type="text" name="vel" id="vel" 
+      placeholder="Digite sua velocidade">
+    <input type="button" value="enviar" onclick="simples()">
+    <div id="res">
+      Aguardando... Acima de 60 KM será multado.
+    </div>
+  </div>
+
+  <div class="composta">
+    <h2>Condições composta</h2>
+    <input type="text" name="pais" id="pais"
+      placeholder="Digite país de nascimento">
+    <input type="button" value="enviar" onclick="composta()">
+    <div id="res2">
+      Aguardando - IF/ELSE
+    </div>
+  </div>
+  <script>
+    function simples(){
+      var vel = document.getElementById('vel');
+      var velNumber = Number(vel.value);
+      var res1 = document.querySelector('div#res');      
+      if(velNumber > 60){
+        res1.innerHTML = 'Você sera multado!';
+      }
+      vel.value = '';
+
+    }
+    
+    function composta(){
+      var pais = document.getElementById('pais').value;
+      var res2 = document.querySelector('div#res2');                  
+      if(pais == 'Brasil'){
+        res2.innerHTML = 'Você é Brasileiro!';
+        res2.style.background = 'yellow';
+        res2.style.color = 'green';
+      }else{
+        res2.innerHTML = 'Você é estrangeiro!';
+      }
+      pais = '';
+    }
+    
+  </script>
+</body>
+</html>

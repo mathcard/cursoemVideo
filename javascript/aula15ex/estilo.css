@@ -1,0 +1,46 @@
+body {
+  background: rgb(80, 80, 116);
+  font: normal 15pt Arial;  
+}
+
+header{
+  color: white;
+  text-align: center;
+}
+
+section{
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto; /* centralizou */
+  box-shadow: 5px 5px 10px rgb(46, 45, 45);
+  text-align: left;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+#resultado{
+  margin: 20px;
+  margin-top: 20px;
+  background: rgb(113, 108, 145);
+  flex-direction: column;
+  border-radius: 10px;
+  padding-top: 30px;
+  color: white;
+  /*border-radius: 50%;
+  width: 300px;*/
+}
+
+.sexo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.texto{
+  margin-top: 10px;
+}

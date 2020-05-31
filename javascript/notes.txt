@@ -1,0 +1,100 @@
+Parei no módulo E
+https://www.youtube.com/watch?v=3emz6rpcJyA&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=22
+
+****** TRATAMENTO DE DADOS ********
+Number, utilizando var x;
+Number.parseFloat(x); // Decimal
+Number.parseInt(x); // Int
+Number(x); // Js decide
+x.toFixed(2).replace('.', ',') => Casa decimal, troca ponto por virgula
+x.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) => Cifrão: R$ 100,00
+
+String, utiliando var text;
+String(text);
+text.toString()
+text.lenght => tamanho da string
+text.toUpperCase();
+text.toLoweCase();
+
+***** OPERADORES *****
+Aritmeticos: +-*/ Padrão, % Resto da divisao, ** Potência;
+Atribuilçai: =, -=, +=, *=, **=
+
+Relacionais: >, <, >=, <=, ==, !=
+5 == 5 => true
+5 == '5' => true (== não identifica tipo de variavel )
+5 === '5' => false
+
+Lógicos !, && , ||
+! Negação,
+&& Conjunção
+|| Disjunção 
+
+Ordem de execução:
+Primeiros os aritmeticos como na matématica, depois relacionais, por fim os lógicos !, &&, ||.
+
+
+Extensões instaladas
+Node Exec - Executa arquivos JS pelo node
+Live Server - Altera tela em tempo real
+
+
+***** MANIPULANDO A DOM ******
+## SELETORES
+
+por Marca (tag):
+Resultado: Busca todas as tags
+Método: getElementsByTagName('tag')[position]
+
+por ID:
+Resultado: busca elemento com id selecionado
+Médoto: getElementById('id')
+
+por Nome:
+Resultado: busca todos elementos com mesmo nome 
+Médoto: getElementsByName('name') || getElementsByName('name')[position]
+
+por Classe:
+Resultado: busca elemento com a classe selecionada
+Médoto: getElementByClassName('class')
+
+por Seletor: 
+Método querySelector('div#id') // querySelector('div.class')
+
+## EVENTOS, acesse Event Reference MDN
+Mouse: mouseenter, mousemove, mousedown, mouseup, click, mouseout
+
+
+****** CONDIÇÕES *******
+## Condição simples
+if(condicao){
+
+}
+
+## Condição composta
+if(condicao){
+  comandos true;
+}else {
+  comandos false;
+}
+
+## Condição aninhadas
+if(condicao){
+  comando true;
+}else if {
+  comando primeiro false, segundo true;
+}else if{
+  comando primeiro e segudo falso, tericerio true;
+}
+
+## condições múltipma
+switch(expressão){
+  case 1:
+    comandos;
+    break;
+  case 2: 
+    comandos;
+    break;
+  default:
+    comandos;
+}
