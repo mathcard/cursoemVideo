@@ -1,5 +1,5 @@
-Parei no módulo E
-https://www.youtube.com/watch?v=3emz6rpcJyA&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=22
+Parei no módulo F
+https://www.youtube.com/watch?v=XdkW62tkAgU&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=29
 
 ****** TRATAMENTO DE DADOS ********
 Number, utilizando var x;
