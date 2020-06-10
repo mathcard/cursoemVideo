@@ -14,7 +14,7 @@ for(let pos in num ){
   console.log(`Posição ${pos}: ${num[pos]}`);
 }
 
-let find = num.indexOf(7); // Pesquisando se o valor existe no vetor e devolvendo a posição
+let find = num.indexOf(88); // Pesquisando se o valor existe no vetor e devolvendo a posição
 console.log(find)
 
 
