@@ -98,3 +98,14 @@ switch(expressão){
   default:
     comandos;
 }
+
+
+Daqui pra frente
+Curso Html do Canal.
+Estude functions
+Estude Objetos
+Estude Modularização
+Estude RegEx
+Estude JSON
+Estude AJAX
+Estude NodeJS
