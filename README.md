@@ -11,8 +11,17 @@
 - Estruturas de Repetições
 - Funções
 
+## Resultados
 
-##### Alterando DOM de acordo com a hora do browser
+### Analisador de Números
+![](/midiaReadme/analisadorNumeros.gif)
+-[x] Funções
+-[x] Condicional
+-[x] Repetição
+
+![](/midiaReadme/analisadorDeNumeros.png)
+
+#### Alterando DOM de acordo com a hora do browser
 
 ![](/midiaReadme/aula12Manha.png)
 ![](/midiaReadme/aula12Noite.png)
