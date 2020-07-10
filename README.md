@@ -14,5 +14,5 @@
 
 ##### Alterando DOM de acordo com a hora do browser
 
-![/midiaReadme/aula12Manha.png]
-![/midiaReadme/aula12Noite.png]
+![](/midiaReadme/aula12Manha.png)
+![](/midiaReadme/aula12Noite.png)
