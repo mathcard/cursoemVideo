@@ -1,3 +1,4 @@
+// Create By:  Matheus do Carmo @mathcard
 var numbers = [];
 var sum = 0;
 var numBigger = 0;

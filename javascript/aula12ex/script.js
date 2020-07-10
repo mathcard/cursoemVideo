@@ -2,8 +2,8 @@ function carregar(){
   var msg = document.getElementById('msg');
   var img = document.getElementById('imagem');
   var agora = new Date();  
-  var hora = agora.getHours();
-  //var hora = 20;
+  //var hora = agora.getHours();
+  var hora = 20;
   msg.innerHTML = `Agora são ${hora} horas.`;
   
   console.log(hora);
