@@ -10,3 +10,9 @@
 - Condicionais 
 - Estruturas de Repetições
 - Funções
+
+
+##### Alterando DOM de acordo com a hora do browser
+
+![/midiaReadme/aula12Manha.png]
+![/midiaReadme/aula12Noite.png]
